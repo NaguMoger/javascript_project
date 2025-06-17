@@ -1,0 +1,111 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.navmenue{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 16px;
+}
+.nav-connect{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.navmenue li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.navmenue li img{
+    display: flex;
+    margin: auto;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.btn-group {
+	border-radius: 100px;
+}
+
+
+.btn-group .btn+.btn {
+	margin-left: 0;
+}
+
+button {
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+.btn {
+	border-radius: 100px;
+}
+
+.btn:focus, 
+.btn:active {
+	outline: none;
+	box-shadow: none;
+}
+
+.light-mode {
+	background-color: #eee;
+	color: #111;
+	transition: all 0.5s ease;
+}
+  
+.light-mode .btn-group {
+	border: 10px solid rgba(0,0,0,0.03);
+	transition: all 0.5s ease;
+}
+ 
+.light-mode .btn {
+	background: #ccc;
+	color: #444;
+}
+ 
+.light-mode .btn:hover,
+.light-mode .btn:active {
+	background-color: #bbb;
+}
+
+.dark-mode {
+	background-color: #111;
+	color: #eee;
+	transition: all 0.5s ease;
+}
+  
+.dark-mode .btn-group {
+	border: 10px solid rgba(255,255,255,0.05);
+	transition: all 0.5s ease;
+}
+
+.dark-mode .btn {
+	background: #444;
+	color: #fff;
+}
+
+.dark-mode .btn:hover, 
+.dark-mode .btn:active {
+	background-color: #333;
+}
+
+.btn.active {
+	background-color: rgba(0,0,0,0);
+}
